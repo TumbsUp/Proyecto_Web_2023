@@ -2,52 +2,28 @@ body{
     margin: 0;
     font-family: sans-serif;
 }
-
 .logo{
     display: flex;
     height: 30px;
-
-}
-
-
-.nav-link{
-    text-decoration: none;
-    color: white;
-    text-transform: uppercase;
-}
-nav a{
-    font-weight: 600;
-    padding-right: 10px;
-}
-nav a:hover{
-    color: #3E4AB8;
-}
-h1{
-    color: white;
-    margin-top: 0px;
-    padding-top: 40px;
 }
 p{
     color: white;
 }
-.btn{
-    border: 2px solid #3E4AB8;
-    text-decoration: none;
-    background: #3E4AB8;
-    color: white;
-    padding: 10px 40px;
-}
-.conte{
+.home{
+    margin: auto;
     background: url(/LWP/Images/Books.jpg) no-repeat center;
     background-size: cover;
     height: 400px;
     align-items: center;
-    opacity: 0.9;
+    opacity: 0.8;
     text-align: center;
 }
 .Contactos{
     background-color: #474545;
     height: 500px;
     text-align: center;
+}
+.Suge{
+    margin: auto;
 }
 
