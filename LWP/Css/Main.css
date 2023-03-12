@@ -26,4 +26,33 @@ p{
 .Suge{
     margin: auto;
 }
+.Mult{
+    background-color: white;
+}
 
+.Socmed>a{
+    color: black;
+}
+
+.Socmed>i{
+    padding: 0px 0px 0px 50%;
+}
+
+.SocCont{
+    margin-top: 150px;
+}
+
+.TikTok{
+
+}
+
+.Facebook{
+    padding: 0px 0px 0px 120px;
+}
+
+.Insta{
+
+}
+.TikTok>a{
+    color: #d64040;
+}
