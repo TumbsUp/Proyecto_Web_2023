@@ -39,20 +39,15 @@ p{
 }
 
 .SocCont{
-    margin-top: 150px;
+    margin: 0px 0px 0px 0px;
+    background-color: #007bff;
+    height: 90px;
 }
 
-.TikTok{
-
+div.text>p{
+    color: black;
 }
 
-.Facebook{
-    padding: 0px 0px 0px 120px;
-}
-
-.Insta{
-
-}
-.TikTok>a{
-    color: #d64040;
+i{
+    color: black;
 }
