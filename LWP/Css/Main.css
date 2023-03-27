@@ -43,13 +43,19 @@ div.ex>span{
     color: white;
 }
 
+.SocialLinks{
+    margin: 0px 0px 0px 110px;
+}
+
 .typesOflearn{
     height: 180px;
     width: 180px;
+    margin-right: 110px;
 }
 
-.copyR{
-    margin-bottom: 0px;
+.copyR>p{
+    padding: 30px 0px 0px 0px;
+    align-items: center;
 }
 div.copyR>p{
     padding-left: 35%;
