@@ -24,7 +24,8 @@ p{
     text-align: center;
 }
 .Suge{
-    margin: auto;
+    margin: 0;
+    height: 500px;
 }
 .Mult{
     background-color: white;
@@ -59,4 +60,31 @@ div.ex>span{
 }
 div.copyR>p{
     padding-left: 35%;
+}
+
+/*--- --- CAROUSEL --- ---*/
+.corousel__contenedor{
+    position: relative;
+
+}
+.carousel_anterior, .carousel_siguiente{
+    position: absolute;
+    display: block;
+    width: 30px;
+    height: 30px;
+    border: none;
+    top: calc(50% - 35%);
+    cursor: pointer;
+    line-height: 30px;
+    text-align: center;
+    background: none;
+    color:white;
+    opacity: 20%;
+}
+
+.carousel_anterior{
+    left: -30px;
+}
+.carousel_siguiente{
+    left: -30px;
 }

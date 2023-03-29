@@ -9,6 +9,7 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
     <script>"https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"</script>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/glider-js@1.7.8/glider.min.css">
     <script src="https://kit.fontawesome.com/2c7bfef965.js" crossorigin="anonymous"></script>
 </head>
 <body>
@@ -29,44 +30,68 @@
         </div>
     </header>
 </div>
-    <section class="Suge">
-        <div class="container-fluid m-0 home">
-            <div class="row">
-                <div class="col col-md-12">
-                    <p class="text-center fs-1 p-3">Sugerencias</p>
-                        <div style="width:35%; margin: 0 auto;">
-                            <p class="text-center fs-5">
-                                Buscamos siempre la mejoría de nuestra empresa, por ende tu opinión
-                                es de suma importancia para nosotros.
-                            </p>
+<section class="Mult">
+    <div class="carousel">
+        <div class="corousel__contenedor">
+            <button aria-label="Anterior" class="carousel_anterior">
+                <i class="bi bi-arrow-left"></i>
+            </button>
+
+            <div class="carousel__Lista">
+                <div class="carousel__elemento">
+                    <!-- <img src="/LWP/Images/LearnSpanish.png" alt="Libro de Español"> -->
+                    <section class="Suge">
+                        <div class="container-fluid m-0 home">
+                            <div class="row">
+                                <div class="col col-md-12">
+                                    <p class="text-center fs-1 p-3">Sugerencias</p>
+                                        <div style="width:35%; margin: 0 auto;">
+                                            <p class="text-center fs-5">
+                                                Buscamos siempre la mejoría de nuestra empresa, por ende tu opinión
+                                                es de suma importancia para nosotros.
+                                            </p>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col col-md-12 p-3">
+                                    <a href="/LWP/Sugestion.html" class="btn btn-primary">Realizar Sugerencia</a>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                </div>
+                <div class="carousel__elemento">
+                    <!-- <img src="/LWP/Images/LearnMath.png" alt=""> -->
+                    <section class="Contactos">
+                        <div class="container-fluid">
+                            <div class="row">
+                                <div class="col col-md-12 mt-5">
+                                    <p class="text-center fs-1 p-3">Contactos</p>
+                                        <div style="width:35%; margin: 0 auto;">
+                                            <p class="text-center fs-5">
+                                                Para más información acerca de nuestros Contactos
+                                                seguir el siguiente enlace
+                                            </p>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col col-md-12 p-3">
+                                    <a href="/LWP/contact.html" class="btn btn-primary">Ver Más</a>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
                 </div>
             </div>
-            <div class="row">
-                <div class="col col-md-12 p-3">
-                    <a href="/LWP/Sugestion.html" class="btn btn-primary">Realizar Sugerencia</a>
-                </div>
-            </div>
+
+            <button aria-label="Siguiente" class="carousel_siguiente">
+                <i class="bi bi-arrow-right"></i>
+            </button>
+            <!-- <div role="tablist" class="carousel__indicadores"></div> -->
         </div>
-    </section>
-    <section class="Contactos">
-        <div class="container-fluid">
-            <div class="row">
-                <div class="col col-md-12 mt-5">
-                    <p class="text-center fs-1 p-3">Contactos</p>
-                        <div style="width:35%; margin: 0 auto;">
-                            <p class="text-center fs-5">
-                                Para más información acerca de nuestros Contactos
-                                seguir el siguiente enlace
-                            </p>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col col-md-12 p-3">
-                    <a href="/LWP/contact.html" class="btn btn-primary">Ver Más</a>
-                </div>
-            </div>
-        </div>
-    </section>
+        <div role="tablist" class="carousel__indicadores"></div>
+    </div>
+</section>
     <footer class="SM">
         <div class="ex">
             <img src="/LWP/Images/Types_Of_Learn.jpg" alt="TypesOfLearn" class="typesOflearn">
@@ -93,6 +118,7 @@
     </footer>
 
 <script>"https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"</script>
-
+<script src="https://cdn.jsdelivr.net/npm/glider-js@1.7.8/glider.min.js"></script>
+<script src="Js/main.js"></script>
 </body>
 </html>
