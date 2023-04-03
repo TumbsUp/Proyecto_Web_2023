@@ -1,8 +1,40 @@
-.logoImg{
-    display: flex;
-    margin: auto;
+.logoImg {
+  display: flex;
+  margin: auto;
 }
 
-img{
-    margin-left: -5%;
+img {
+  margin-left: -5%;
+}
+
+.loader {
+  position: absolute !important;
+  top: 2%;
+  left: 2%;
+  transform: translate(-50%, -50%);
+  border: 3px solid #f3f3f3;
+  border-top: 3px solid #3E4AB8;
+  border-radius: 50%;
+  width: 25px;
+  height: 25px;
+  animation: spin 2s linear forwards;
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.hide {
+  display: none;
+}
+
+body {
+  opacity: 0;
+  transition: opacity 1s ease-in-out;
 }
