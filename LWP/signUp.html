@@ -47,9 +47,11 @@
 
                 <p style="font-size: 35px;" class="fw-bold mb-4">Crea tu cuenta</p>
 
-                <input type="text" name="id" id="id" placeholder="Nombre de usuario" class="form-control mb-4"
+                <input type="text" id="username" placeholder="Nombre de usuario" class="form-control mb-4"
                   maxlength="50" style="height:50px" required>
-                <input type="email" name="Gmail" placeholder="Correo electronico" id="Gmail" class="form-control mb-4"
+
+
+                <input type="email" placeholder="Correo electronico" id="Gmail" class="form-control mb-4"
                   style="height:50px" required>
 
                 <p class="mb-1"><strong>Fecha de nacimiento</strong></p>
@@ -88,7 +90,7 @@
                       </select>
                     </div>
                     <div class="col-4">
-                      <select id="anio" name="anio" class="rounded-1 form-control" style="height:50px ;">
+                      <select id="ahno" name="anio" class="rounded-1 form-control" style="height:50px ;">
                         <option value="">Año</option>
                         <script>
                           const anioActual = new Date().getFullYear();
@@ -104,8 +106,9 @@
                 <hr>
 
 
-                <a style="display: block;" href="#">
-                  <button style="border-color: #A0A0A0; color: white; background-color: #3E4AB8;" type="button"
+                <a style="display: block;" href="/LWP/main.html">
+                  <button onclick="return validarSignUp()"
+                    style="border-color: #A0A0A0; color: white; background-color: #3E4AB8;" type="button"
                     class=" rounded-5 form-control btn  mb-3 "> Siguiente</button>
                 </a>
 
