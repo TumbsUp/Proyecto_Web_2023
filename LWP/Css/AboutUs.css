@@ -1,0 +1,56 @@
+.logo{
+    display: flex;
+    height: 30px;
+}
+
+.info{
+    background-color: #a8b0bd;
+}
+
+.left{
+    float: left;
+    width: 50%;
+    background-color: #4c49a6;
+}
+
+.right{
+    float: right;
+    width: 50%;
+    background-color: #4984a6;
+}
+
+footer{
+    background-color: white;
+}
+.butn{
+    padding: 0px 0px 0px 340px;
+}
+
+.ex{
+    padding: 30px 0px 0px 140px;
+    display: inline-flex;
+}
+
+.SocialLinks{
+    margin: 0px 0px 0px 110px;
+}
+
+div.ex>p{
+    color: black;
+}
+
+.examples{
+    height: 500px;
+}
+
+.typesOflearn{
+    height: 180px;
+    width: 180px;
+    margin-right: 110px;
+    mix-blend-mode: multiply;
+}
+
+div.copyR>p{
+    padding-left: 35%;
+    color: black;
+}
