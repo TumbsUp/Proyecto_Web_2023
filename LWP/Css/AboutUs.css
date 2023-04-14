@@ -8,6 +8,14 @@ header {
     position: relative;
 }
 
+.Navbar{
+    background-color: white;
+    opacity: .5;
+    top: 0;
+    width: 100%;
+    position:absolute;
+}
+
 .wave {
     position: absolute;
     bottom: 0;
