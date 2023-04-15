@@ -1,8 +1,9 @@
+/*Logo hat Style*/
 .logoImg {
   display: flex;
   margin: auto;
 }
-
+/*Style of the images*/
 img {
   margin-left: -5%;
 }

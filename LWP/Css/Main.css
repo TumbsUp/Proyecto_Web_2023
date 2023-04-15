@@ -57,6 +57,7 @@ div.copyR>p{
     position: relative;
 
 }
+/*Styles for the Carousel*/
 .carousel_anterior, .carousel_siguiente{
     position: absolute;
     display: block;
@@ -71,10 +72,11 @@ div.copyR>p{
     color:white;
     /* opacity: 20%; */
 }
-
+/*Left arrow alignment*/
 .carousel_anterior{
     left: 30px;
 }
+/*Right arrow alignment*/
 .carousel_siguiente{
     left: 1480px;
 }
