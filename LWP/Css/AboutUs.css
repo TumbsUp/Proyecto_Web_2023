@@ -10,10 +10,11 @@ header {
 
 .Navbar{
     background-color: white;
-    opacity: .5;
+    opacity: .6;
     top: 0;
     width: 100%;
-    position:absolute;
+    position:relative;
+    height: 55px;
 }
 
 .wave {
