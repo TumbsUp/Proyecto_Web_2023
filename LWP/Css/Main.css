@@ -9,6 +9,7 @@ body{
 p{
     color: white;
 }
+/* Sugestion Section */
 .home{
     margin: auto;
     background: url(/LWP/Images/Books.jpg) no-repeat center;
@@ -18,49 +19,32 @@ p{
     opacity: 0.8;
     text-align: center;
 }
+/*Contac Section*/
 .Contactos{
-    background-color: #474545;
+    background: url(/LWP/Images/Office.jpg) no-repeat center;
     height: 500px;
     text-align: center;
 }
+/*Suge div for Sugestion Section*/
 .Suge{
     margin: 0;
     height: 500px;
 }
-
+.examples{
+    background: url(/LWP/Images/Kids_Playground.jpg)no-repeat center;
+    height: 500px;
+    text-align: center;
+}
 .contGH{
     height: 500px;
 }
-
+/*Color for the footer*/
 footer{
     background-color: white;
-}
-.butn{
-    padding: 0px 0px 0px 340px;
-}
-
-.ex{
-    padding: 30px 0px 0px 140px;
-    display: inline-flex;
-}
-
-.SocialLinks{
-    margin: 0px 0px 0px 110px;
 }
 
 div.columns>p{
     color:black;
-}
-
-.examples{
-    height: 500px;
-}
-
-.typesOflearn{
-    height: 180px;
-    width: 180px;
-    margin-right: 110px;
-    mix-blend-mode: multiply;
 }
 
 div.copyR>p{
@@ -79,18 +63,19 @@ div.copyR>p{
     width: 30px;
     height: 30px;
     border: none;
-    top: calc(50% - 35%);
+    top: calc(50% - 12%);
     cursor: pointer;
     line-height: 30px;
     text-align: center;
     background: none;
     color:white;
-    opacity: 20%;
+    /* opacity: 20%; */
 }
 
 .carousel_anterior{
-    left: -30px;
+    left: 30px;
 }
 .carousel_siguiente{
-    left: -30px;
+    left: 1480px;
 }
+
