@@ -10,19 +10,18 @@ header {
 
 .Navbar{
     background-color: white;
-    opacity: .6;
     top: 0;
     width: 100%;
     position:relative;
     height: 55px;
 }
-
+/* Wave div form */
 .wave {
     position: absolute;
     bottom: 0;
     width: 100%;
 }
-
+/*Logo style*/
 .logo {
     display: flex;
     height: 30px;

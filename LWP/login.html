@@ -25,14 +25,15 @@
   <div class="container-fluid ">
     <div class="row ">
       <div class="col col-3"></div>
+      <!--Card where there is the content to login-->
       <div class="col col-6 ">
-
         <div class="card rounded-4"
           style=" margin: auto; margin-top: 5%; padding-left: 15%; padding-right: 15%; margin-left: 9%; margin-right: 9%;">
-
+          <!--Card Body-->
           <div class="card-body">
             <form class="BG">
               <div class="mb-3 ">
+                <!--Img of the companny-->
                 <img class="logoImg mb-4" src="/LWP/Images/LWP_Logo(Hat).png" width="40" height="35" />
                 
                 <a style="display: block;" href="/LWP/main.html">
@@ -44,13 +45,10 @@
                     </svg>
                   </button>
                 </a>
-
-
-
-
+                <!--Tittle of the card-->
                 <p style="font-size: 40px;" class="fw-bold pb-">Iniciar sesión en LWP</p>
 
-
+                <!--Option Buttons to Log in-->
                 <a style="display: block;" href="https://accounts.google.com/login?hl=es">
                   <button style="border-color: #A0A0A0;" type="button" class="rounded-5 form-control btn  mb-3"><img
                       src="/LWP/Images/google-icon.png" height="20"> Iniciar sesión con Google
@@ -64,24 +62,25 @@
                 </a>
                 <div class="loader"></div>
                 <p>_________________________o__________________________</p>
-
+                <!--Input holders-->
                 <input id="correo" placeholder="Correo electronico o teléfono" type="text"
                   class="mb-3 form-control bg-body-secondary rounded-2" id="exampleInputUser"
                   aria-describedby="emailHelp" required>
 
                 <input id="contra" placeholder="Contraseña" type="password"
                   class="mb-3 form-control bg-body-secondary rounded-2" id="exampleInputPassword1" required>
-
+                <!--Button to log in-->
                 <a style="display: block;" href="/LWP/Modulos_Aprendizaje_Main.html">
                   <button onclick="return validarLogin()"
                     style="border-color: #A0A0A0; color: white; background-color: #3E4AB8;" type="button"
                     class=" rounded-5 form-control btn  mb-3 "> Siguiente</button>
                 </a>
-
+                <!--Button to recover password-->
                 <a style="display: block;" href="/LWP/passwordForgot.html">
                   <button style="border-color: #A0A0A0; color: white; background-color: black;" type="button"
                     class=" rounded-5 form-control btn  mb-3 "> ¿Olvidastes tu contraseña?</button>
                 </a>
+                <!--Button to Register instead of login-->                
                 <p style="text-align: center;">¿No tienes una cuenta? <a href="/LWP/signUp.html"
                     style="text-decoration: none;">Regístrate ahora!</a></p>
             </form>
@@ -91,7 +90,7 @@
     </div>
     <div class="col col-3"></div>
   </div>
-
+  <!--Load Animation-->
   <script src="/LWP/Js/animacionCarga.js"></script>
 </body>
 

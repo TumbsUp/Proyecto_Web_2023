@@ -1,7 +1,7 @@
 * {
     box-sizing: border-box;
 }
-
+/*Style for the Body*/
 body {
     background: #e2e2e2;
     color: #ffffff;
@@ -9,9 +9,11 @@ body {
     font-family: 'Quicksand', sans-serif;
     padding: 0 1.5em;
 }
+/*Color for the paragraphs*/
 .contact-form p{
     color: #000000;
 }
+/*Color for the titles*/
 .contact-form h2{
     color: #000000;
     text-align: center;

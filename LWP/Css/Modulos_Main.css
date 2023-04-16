@@ -1,3 +1,4 @@
+/*Page where we get the letter type*/
 @import url('https://fonts.googleapis.com/css2?family=Alkatra:wght@600&display=swap');
 
 *{
@@ -7,12 +8,12 @@
     font-family: 'Alkatra', cursive;
     font-size: 20px;
 }
-
+/*Style for header*/
 header{
     background-color: #3E4AB8;
     margin: 0;
 }
-
+/*Style for the logo*/
 .log_lwp{
     width: 60px;
     height: 60px;

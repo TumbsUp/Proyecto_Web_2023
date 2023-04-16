@@ -8,22 +8,21 @@
     <link rel="stylesheet" href="/LWP/Css/Sugest.css">
 </head>
 <body bgcolor="e2e2e2">
-    <div class="mainBlock">
-        <div class="header">
-            
-
-        <img class="pequeña" src ="/LWP/Images/LWP_Logo.png" width="120" height="30"/>
-        </div>
-        
-        <div class = "headBlock">
-            <ul class="nav"> 
-                <li><a href="/LWP/main.html">Home</a></li>
-                <li><a href="#">Contactos</a></li>
-                <li><a href="#">Derecho de Autor</a></li>
-                <li><a href="#">Multimedia</a></li>
-            </ul>
-        </div>
-        
+        <div class="mainBlock">
+            <!--Header for the Logo-->
+            <div class="header">
+            <img class="pequeña" src ="/LWP/Images/LWP_Logo.png" width="120" height="30"/>
+            </div>
+            <!--Div for the navbar-->
+            <div class = "headBlock">
+                <ul class="nav"> 
+                    <li><a href="/LWP/main.html">Home</a></li>
+                    <li><a href="#">Contactos</a></li>
+                    <li><a href="#">Derecho de Autor</a></li>
+                    <li><a href="#">Multimedia</a></li>
+                </ul>
+            </div>
+        <!--Suggestion Block with all the info-->
         <div class = "sugestionBlock"></br>
         <strong><p>En la LWP nos interesa conocer tu opinión.</p></strong></br>
 
@@ -40,7 +39,6 @@
               <!--Creación de formularios-->
         <!--The get method is way to insecure-->
     <form action="" method="get"> <!--Manda infromacion por el ulr. Mientras que en el post no se puede visualizar-->
-     
         <div>
             <div class="input">
                 <label for="Color">Nombre</label>
@@ -65,7 +63,7 @@
                 <input type="text"name="id" id="id" placeholder="Numero télefonico" maxlength="30"></div>
             </br> </br>
            
-                
+            <!--Options Selection-->
             <div class="input">
                 <label for="file">Tipo de sugerencia</label>
                 <select name="Brand" id="Brand">
@@ -104,6 +102,7 @@
         
 
         </div>
+        <!--Some Text about our page-->
         <div class="footer">
             <div class="footer1"> 
                 <h4>2023 Learning While Playing</h4>
