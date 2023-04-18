@@ -10,6 +10,7 @@ header {
 
 .Navbar{
     background-color: white;
+    opacity: .8;
     top: 0;
     width: 100%;
     position:relative;
