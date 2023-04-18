@@ -1,0 +1,21 @@
+body{
+    margin: 0;
+    font-family: sans-serif;
+}
+.logo{
+    display: flex;
+    height: 30px;
+}
+.info{
+    background-color: darkcyan;
+}
+.left{
+    float: left;
+    height: 180px;
+    width: 768px;
+}
+.right{
+    float:right;
+    height: 180px;
+    width: 768px;
+}
