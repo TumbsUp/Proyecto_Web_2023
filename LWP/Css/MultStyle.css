@@ -9,13 +9,10 @@ body{
 .info{
     background-color: darkcyan;
 }
-.left{
-    float: left;
-    height: 180px;
-    width: 768px;
-}
-.right{
-    float:right;
-    height: 180px;
-    width: 768px;
+
+#copyR>p{
+    padding-left: 35%;
+    color: black;
+}.SM{
+    margin: 280px 0px 0px 0px;
 }

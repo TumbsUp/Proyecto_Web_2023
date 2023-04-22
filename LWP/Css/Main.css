@@ -47,7 +47,7 @@ div.columns>p{
     color:black;
 }
 
-div.copyR>p{
+#copyR>p{
     padding-left: 35%;
     color: black;
 }
@@ -64,7 +64,7 @@ div.copyR>p{
     width: 30px;
     height: 30px;
     border: none;
-    top: calc(50% - 12%);
+    top: calc(50% - 13%);
     cursor: pointer;
     line-height: 30px;
     text-align: center;
@@ -74,7 +74,7 @@ div.copyR>p{
 }
 /*Left arrow alignment*/
 .carousel_anterior{
-    left: 30px;
+    left: 10540px;
 }
 /*Right arrow alignment*/
 .carousel_siguiente{
