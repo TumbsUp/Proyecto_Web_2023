@@ -40,7 +40,7 @@ body{
     height: 550px;
     background: #bc4e9c;  /* fallback for old browsers */
     background: -webkit-linear-gradient(to right, hsla(0, 54%, 17%, 0.823), hsla(0, 0%, 5%, 0.889)), url(../Images/Moduloespañol.jpg);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, hsla(0, 54%, 17%, 0.823), hsla(0, 0%, 5%, 0.889)), url(../Images/Moduloespañol.jpg); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: linear-gradient(to right, hsla(0, 54%, 17%, 0.10), hsla(0, 0%, 5%, 10)), url(../Images/Moduloespañol.jpg); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     background-size: cover;
     background-attachment: fixed;
 
