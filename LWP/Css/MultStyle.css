@@ -2,17 +2,29 @@ body{
     margin: 0;
     font-family: sans-serif;
 }
+/*Logo styles*/
 .logo{
     display: flex;
     height: 30px;
 }
+/*Color for the multimedia section*/
 .info{
     background-color: darkcyan;
 }
-
+/*Color for the letter of the footer*/
 #copyR>p{
     padding-left: 35%;
     color: black;
+/*Margin for the footer*/
 }.SM{
-    margin: 280px 0px 0px 0px;
+    margin: 80px 0px 0px 0px;
+}
+/*Style for the module of the video*/
+.Video-Modules{
+    background-color: grey;
+}
+/*Style For the video div*/
+.Video{
+    margin-left: 400px;
+    padding: 80px 0px 80px 0px;
 }
