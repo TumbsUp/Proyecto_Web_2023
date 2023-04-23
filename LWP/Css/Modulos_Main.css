@@ -5,8 +5,7 @@
     display: flex;
     height: 30px;
 }
-<<<<<<< HEAD
-=======
+
 /*Style for header*/
 header{
     background-color: #3E4AB8;
@@ -17,7 +16,7 @@ header{
     width: 60px;
     height: 60px;
 }
->>>>>>> ef685aa5456a76e3ad8872d989ca332a2cc73ea3
+
 .hexagon {
     height: 450px;
     position: relative;
@@ -96,7 +95,9 @@ header{
         width: 100%;
         max-width: 220px;
         margin: auto;
-<<<<<<< HEAD
+    
+
+        
     }
 
     
@@ -129,6 +130,3 @@ header{
     }
 
   
-=======
-    }
->>>>>>> ef685aa5456a76e3ad8872d989ca332a2cc73ea3
