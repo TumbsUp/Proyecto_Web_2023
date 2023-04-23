@@ -1,0 +1,60 @@
+.muestra{
+    background: #F4F4F4;
+}
+.cd-block {
+    background-size: cover;
+    background-attachment: fixed; 
+}
+
+.card img{
+    height: 185px;
+}
+.card-body{
+    height: 100px;
+    
+
+}
+
+.SM{
+    background: #F4F4F4;
+}
+
+.fs-1{
+    font-size: 30px;
+} 
+
+.primero{
+    width: 100%;
+    height: 550px;
+    background: #bc4e9c;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, hsla(0, 0%, 0%, 0.473), hsla(320, 88%, 48%, 0.204)), url(../Images/mario.bros.jpeg);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, hsla(0, 20%, 3%, 0.675), hsla(0, 0%, 0%, 0.826)), url(../Images/mario.bros.jpeg); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background-size: cover;
+    background-attachment: fixed;
+
+}
+
+.texto-imagen h1{
+    font-size: 50px;
+    color: #fff;
+}
+
+.texto-imagen h2{
+    font-size: 30px;
+    color: #fff;
+    font-weight: 300;
+}
+
+.texto-imagen{
+    display: flex;
+    height: 200px;
+    width: 1000px;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    text-decoration: none;
+    margin-top: 30px;
+    color: #fff;
+    border: 1px solid #fff;
+}
