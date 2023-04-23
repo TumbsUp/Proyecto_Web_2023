@@ -20,17 +20,17 @@ p{
     text-align: center;
 }
 /*Contac Section*/
-.Contactos{
+#Contactos{
     background: url(/LWP/Images/Office.jpg) no-repeat center;
     height: 500px;
     text-align: center;
 }
 /*Suge div for Sugestion Section*/
-.Suge{
+#Suge{
     margin: 0;
     height: 500px;
 }
-.examples{
+#examples{
     background: url(/LWP/Images/Kids_Playground.jpg)no-repeat center;
     height: 500px;
     text-align: center;
@@ -74,9 +74,14 @@ div.columns>p{
 }
 /*Left arrow alignment*/
 .carousel_anterior{
-    left: 10540px;
+    left: 40px;
 }
 /*Right arrow alignment*/
 .carousel_siguiente{
     left: 1480px;
+<<<<<<< HEAD
 }
+=======
+}
+
+>>>>>>> ef685aa5456a76e3ad8872d989ca332a2cc73ea3
