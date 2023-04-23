@@ -30,13 +30,19 @@ function validarLogin() {
 
   if (contra == ""|| correo =="") {
     alert("Por favor, complete los campos del formulario");
+    document.getElementById("correo").focus();
     return false;
   }
+  if( !(/^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,4})+$/.test(correo)) ) {
+    alert("Agrega el formato de correo");
+    document.getElementById("correo").focus();
+    return false;
+  }
+  
+  
 
   return true;
 }
-
-
 function validarSignUp() {
   var username = document.getElementById("username").value;
   var Gmail = document.getElementById("Gmail").value;
@@ -47,6 +53,11 @@ function validarSignUp() {
 
   if (username == "" || Gmail =="" || mes =="" || dia =="" || ahno =="") {
     alert("Por favor, complete los campos del formulario");
+    return false;
+  }
+  if( !(/^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,4})+$/.test(Gmail)) ) {
+    alert("Agrega el formato de correo");
+    document.getElementById("Gmail").focus();
     return false;
   }
 
