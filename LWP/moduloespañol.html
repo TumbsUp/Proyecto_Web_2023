@@ -14,21 +14,26 @@
 
 </head>
 <body class="color">
-  <header class="border">
+  <header class="border-bottom p-3 bg-body-tertiary rounded">
     <div class="container-fluid">
         <div class="row">
-            <div class="muestra col-md-4 fs-3 text">
-                <img class="logo" src="/LWP/Images/LWP_Logo.png" alt="LWP_Logo" width="70" >
+            <div class="col-sm-6 col-md-4 fs-3 text">
+                <img class="logo" src="/LWP/Images/LWP_Logo.png" alt="LWP_Logo">
             </div>
-            <div class="muestra col-md-8" style="text-align: right; " >
-                <a href="#Contactos" class="btn btn-gray" >Contactos</a>
-                <a href="#SM" class="btn btn-gray">Redes Sociales</a>
-                <a href="#" class="btn btn-gray">Derechos de Autor</a>
-                <a href="#Suge" class="btn btn-gray">Sugerencias</a>
-                <a href="#" class="btn btn-gray">Multimedia</a>
+            <div class="col-sm-6 col-md-8" style="text-align: right;">
+                <span class="p-5" >¡Bienvenido!</span>
+            <!--Dropdown for the Profile of the user-->
+            <div class="dropdown" style="display: inline-block;">
+            <button class="btn btn-secondary btn-sm dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="true">
+                <i class="bi bi-person-circle p-1"></i>UserName
+            </button>
+            <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Ver Perfil</a></li>
+                <li><a class="dropdown-item" href="#">Cambiar Foto de Perfil</a></li>
+                <li><a class="dropdown-item" href="#">Cerrar Sesión</a></li>
             </div>
         </div>
-        
+    </div>
 </header>
 </div>
 <header class="primero">
@@ -151,17 +156,17 @@ style="width: 65%; margin: 50px 0px 0px 19%; height: 1px ;border:none;color:rgb(
       </div>
       <!--About Us Button to go-->
       <div class="col col-md-2 columns">
-          <h5>About</h5>
-          <a href="/LWP/AboutUs.html" class="btn btn-primary">Saber Más</a>
+          <h5>Página Principal</h5>
+          <a href="/LWP/main.html" class="btn btn-primary">Ingresar</a>
       </div>
       <div class="col col-md-1"></div>
       <div class="col col-md-1"></div>
   </div>
   <!--Copyright Section-->
-  <div class="copyR">
+  <div id="copyR">
       <hr
           style="width: 65%; margin: 50px 0px 0px 19%; height: 1px ;border:none;color:black;background-color:black;">
-      <p class="fst-italics" style="padding-top: 20px;">Copyright @2023 Todos los derechos Reservados a LWP</p>
+      <p class="fst-italics" style="padding-top: 20px; text-align: center;">Copyright @2023 Todos los derechos Reservados a LWP</p>
   </div>
 </footer>
 </html>
