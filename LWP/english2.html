@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>English2</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <script>"https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"</script>
+    <link rel="stylesheet" href="/LWP/Css/English1.css">
+
+    <link rel="stylesheet" href="/LWP/Css/Modulos_Main.css">
+
+
+
+</head>
+
+<body>
+    <header class="border-bottom p-3 bg-body-tertiary rounded">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col col-md-4 fs-3 text">
+                    <img class="logo" src="/LWP/Images/LWP_Logo.png" alt="LWP_Logo">
+                </div>
+                <div class="col col-md-8" style="text-align: right;">
+                    <span class="p-5" >¡Bienvenido!</span>
+                <!--Dropdown for the Profile of the user-->
+                <div class="dropdown" style="display: inline-block;">
+                <button class="btn btn-secondary btn-sm dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="true">
+                    <i class="bi bi-person-circle p-1"></i>UserName
+                </button>
+                <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#">Ver Perfil</a></li>
+                    <li><a class="dropdown-item" href="#">Cambiar Foto de Perfil</a></li>
+                    <li><a class="dropdown-item" href="#">Cerrar Sesión</a></li>
+                </div>
+            </div>
+        </div>
+    </header>
+    <section style="background-color: #ebf2f2"> <!-- All the modules existed-->
+        <div class="row">
+            <div style="font-size: 30px; text-align: center;" class="col-12 imagen2">
+                <h2 class="position-absolute top-50 start-50 translate-middle" style="color: aliceblue;">Learning a new
+                    language takes time and effort, but it's worth it </h2>
+
+            </div>
+        </div>
+
+    </section>
+    <section>
+        <div class="row">
+            <div class="mt-3"></div>
+            <div class="col-1"></div>
+            <div class="col-5">
+                <iframe class="form-control" height="415" src="https://www.youtube.com/embed/AdyY3VuzYHE"
+                    title="YouTube video player" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    allowfullscreen></iframe>
+            </div>
+            <div class="col-5">
+                <div class="row">
+                    <div style="font-size: 20px;" class="col-3">
+                        <label class="mb-3 mt-2"> Outside</label><br>
+                        <label class="mb-3"> Come on</label><br>
+                        <label class="mb-3"> inside</label><br>
+                        <label class="mb-3">run</label><br>
+                        <label class="mb-3">swim</label><br>
+                        <label class="mb-3">skate</label><br>
+                        <label class="mb-3">Exercise</label><br>
+                        <label class="mb-3">Strech</label><br>
+                        <label class="mb-3">Jump</label><br>
+                    </div>
+                    <div class="col-6">
+                        <input class="rounded-3 mb-2 mt-2 form-control" type="text" id="outside">
+                        <input class="rounded-3 mb-2 form-control" type="text" id="come">
+                        <input class="rounded-3 mb-2 form-control" type="text" id="inside">
+                        <input class="rounded-3 mb-2 form-control" type="text" id="run">
+                        <input class="rounded-3 mb-2 form-control" type="text" id="swimming">
+                        <input class="rounded-3 mb-2 form-control" type="text" id="skating">
+                        <input class="rounded-3 mb-2 form-control" type="text" id="exercise">
+                        <input class="rounded-3 mb-2 form-control" type="text" id="strech">
+                        <input class="rounded-3 mb-2 form-control" type="text" id="jump">
+                        <button id="eliminarDatosSegundo"
+                            style="border-color: #A0A0A0; color: white; background-color: #A0A0A0" type="button"
+                            class=" rounded-5 form-control btn  mb-3 ">Try again</button>
+
+
+                    </div>
+                    <div class="col-3">
+
+                        <button onclick="return outside()"
+                            style="border-color: #A0A0A0; color: white; background-color: #3E4AB8;" type="button"
+                            class=" rounded-5 form-control btn  mb-2 ">Send</button>
+                        <button onclick="return come()"
+                            style="border-color: #A0A0A0; color: white; background-color: #3E4AB8;" type="button"
+                            class=" rounded-5 form-control btn  mb-2 ">Send</button>
+                        <button onclick="return inside()"
+                            style="border-color: #A0A0A0; color: white; background-color: #3E4AB8;" type="button"
+                            class=" rounded-5 form-control btn  mb-2 ">Send</button>
+                        <button onclick="return run()"
+                            style="border-color: #A0A0A0; color: white; background-color: #3E4AB8;" type="button"
+                            class=" rounded-5 form-control btn  mb-2 ">Send</button>
+                        <button onclick="return swimming()"
+                            style="border-color: #A0A0A0; color: white; background-color: #3E4AB8;" type="button"
+                            class=" rounded-5 form-control btn  mb-2 ">Send</button>
+                        <button onclick="return skating()"
+                            style="border-color: #A0A0A0; color: white; background-color: #3E4AB8;" type="button"
+                            class=" rounded-5 form-control btn  mb-2 ">Send</button>
+                        <button onclick="return exercise()"
+                            style="border-color: #A0A0A0; color: white; background-color: #3E4AB8;" type="button"
+                            class=" rounded-5 form-control btn  mb-2 ">Send</button>
+                        <button onclick="return strech()"
+                            style="border-color: #A0A0A0; color: white; background-color: #3E4AB8;" type="button"
+                            class=" rounded-5 form-control btn  mb-2 ">Send</button>
+                        <button onclick="return jump()"
+                            style="border-color: #A0A0A0; color: white; background-color: #3E4AB8;" type="button"
+                            class=" rounded-5 form-control btn  mb-2 ">Send</button>
+
+
+
+                    </div>
+                </div>
+                <div class="col-1"></div>
+            </div>
+            <div style="background-color: lavender;" class="row">
+                <div class="mt-5"></div>
+                <div class="col-1"></div>
+                <div class="col-10">
+                    <iframe style="border: 5px solid #3E4AB8; " class="form-control " height="415"
+                        src="https://www.youtube.com/embed/l4WNrvVjiTw" title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        allowfullscreen></iframe>
+                </div>
+                <div class="col-1"></div>
+            </div>
+            <div style="background-color: lavender;" class="row">
+                <div class="col-1"></div>
+                <div class="col-10">
+                    <div style="text-align: center;font-size: 20px;" class="row">
+
+                        <div class="col-2">
+                            <label class="mb-3 mt-2"> Feliz</label>
+                            <input class="rounded-3 mb-2 mt-2 form-control" type="text" id="happy">
+                            <button onclick="return happy()"
+                                style="border-color: #A0A0A0; color: white; background-color: #3E4AB8;" type="button"
+                                class=" rounded-5 form-control btn  mb-2 ">Send</button>
+                        </div>
+                        <div class="col-2">
+                            <label class="mb-3 mt-2"> Manos</label>
+                            <input class="rounded-3 mb-2 mt-2 form-control" type="text" id="hands">
+                            <button onclick="return hands()"
+                                style="border-color: #A0A0A0; color: white; background-color:#A0A0A0" type="button"
+                                class=" rounded-5 form-control btn  mb-2 ">Send</button>
+
+                        </div>
+                        <div class="col-2">
+                            <label class="mb-3 mt-2"> Dormilon</label>
+                            <input class="rounded-3 mb-2 mt-2 form-control" type="text" id="sleepy">
+                            <button onclick="return sleepy()"
+                                style="border-color: #A0A0A0; color: white; background-color:#3E4AB8" type="button"
+                                class=" rounded-5 form-control btn  mb-2 ">Send</button>
+
+                        </div>
+                        <div class="col-2">
+                            <label class="mb-3 mt-2"> Siesta</label>
+                            <input class="rounded-3 mb-2 mt-2 form-control" type="text" id="nap">
+                            <button onclick="return nap()"
+                                style="border-color: #A0A0A0; color: white; background-color:#A0A0A0" type="button"
+                                class=" rounded-5 form-control btn  mb-2 ">Send</button>
+
+                        </div>
+                        <div class="col-2">
+                            <label class="mb-3 mt-2"> Pisar</label>
+                            <input class="rounded-3 mb-2 mt-2 form-control" type="text" id="stomp">
+                            <button onclick="return stomp()"
+                                style="border-color: #A0A0A0; color: white; background-color:#3E4AB8" type="button"
+                                class=" rounded-5 form-control btn  mb-2 ">Send</button>
+
+                        </div>
+                        <div class="col-2">
+                            <label class="mb-3 mt-2"> Asustado</label>
+                            <input class="rounded-3 mb-2 mt-2 form-control" type="text" id="scared">
+                            <button onclick="return scared()"
+                                style="border-color: #A0A0A0; color: white; background-color:#A0A0A0" type="button"
+                                class=" rounded-5 form-control btn  mb-2 ">Send</button>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="col-1"></div>
+                <div class="mb-2"></div>
+            </div>
+            <div style="background-color: lavender;" class="row">
+                <div class="col-5"></div>
+                <div class="col-2">
+                    <button id="eliminarDatosSegundo1" type="button"
+                        class=" rounded-5 form-control btn  mb-3 botonLimpia ">Try again</button>
+                </div>
+                <div class="col-5"></div>
+                <div class="mb-5"></div>
+            </div>
+            <section>
+                <div class="row">
+                    <div class="mt-5"></div>
+
+                    <div class="mt-3"></div>
+                    <div class="col-1"></div>
+                    <div class="col-5">
+                        <div class="row">
+                            <div class="mt-5"></div>
+                            <div style="font-size: 20px;" class="col-3">
+                                <label class="mb-3 mt-2"> Zanahoria</label><br>
+                                <label class="mb-3"> Repollo</label><br>
+                                <label class="mb-3"> Ajo</label><br>
+                                <label class="mb-3">Espinaca</label><br>
+                                <label class="mb-3">Papa</label><br>
+                                <label class="mb-3">Apio</label><br>
+                                <label class="mb-3">Brócoli</label><br>
+
+                            </div>
+                            <div class="col-6">
+                                <input class="rounded-3 mb-2 mt-2 form-control" type="text" id="carrot">
+                                <input class="rounded-3 mb-2 form-control" type="text" id="cabbage">
+                                <input class="rounded-3 mb-2 form-control" type="text" id="garlic">
+                                <input class="rounded-3 mb-2 form-control" type="text" id="spinach">
+                                <input class="rounded-3 mb-2 form-control" type="text" id="potato">
+                                <input class="rounded-3 mb-2 form-control" type="text" id="celery">
+                                <input class="rounded-3 mb-2 form-control" type="text" id="broccoli">
+
+
+                            </div>
+                            <div class="col-3">
+
+                                <button onclick="return carrot()"
+                                    style="border-color: #A0A0A0; color: white; background-color: #A0A0A0" type="button"
+                                    class=" rounded-5 form-control btn  mb-2 ">Send</button>
+                                <button onclick="return cabbage()"
+                                    style="border-color: #A0A0A0; color: white; background-color: #A0A0A0;"
+                                    type="button" class=" rounded-5 form-control btn  mb-2 ">Send</button>
+                                <button onclick="return garlic()"
+                                    style="border-color: #A0A0A0; color: white; background-color: #A0A0A0;"
+                                    type="button" class=" rounded-5 form-control btn  mb-2 ">Send</button>
+                                <button onclick="return spinach()"
+                                    style="border-color: #A0A0A0; color: white; background-color: #A0A0A0;"
+                                    type="button" class=" rounded-5 form-control btn  mb-2 ">Send</button>
+                                <button onclick="return potato()"
+                                    style="border-color: #A0A0A0; color: white; background-color: #A0A0A0;"
+                                    type="button" class=" rounded-5 form-control btn  mb-2 ">Send</button>
+                                <button onclick="return celery()"
+                                    style="border-color: #A0A0A0; color: white; background-color: #A0A0A0;"
+                                    type="button" class=" rounded-5 form-control btn  mb-2 ">Send</button>
+                                <button onclick="return broccoli()"
+                                    style="border-color: #A0A0A0; color: white; background-color: #A0A0A0;"
+                                    type="button" class=" rounded-5 form-control btn  mb-2 ">Send</button>
+
+
+
+
+
+                            </div>
+                        </div>
+                       
+                    </div>
+                    
+                    <div class="col-5">
+                        <iframe class="form-control" height="415" src="https://www.youtube.com/embed/RE5tvaveVak"
+                            title="YouTube video player" frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                            allowfullscreen></iframe>
+
+                    </div>
+                    <div class="col-1"></div>
+                    <div class="mb-5"></div>
+
+                </div>
+
+
+
+            </section>
+<div style="background-color: lavender;" class="row ">
+    <div class="col-3"></div>
+    <div class="col-6">
+        <div class="mt-3"></div>
+        <p style="font-size: 25px; text-align: center;">Watch more of our videos and keep learning!</p>
+    </div>
+    <div class="col-3"></div>
+
+</div>
+            <div style="background-color: lavender;" class="row">
+                <div class="mt-3"></div>
+                <div class="col-1"></div>
+                <div class="col-10">
+                <div class="row">
+                    <div class="col-6">
+                        <iframe class="form-control" height="315" src="https://www.youtube.com/embed/eBVqcTEC3zQ"
+                            title="YouTube video player" frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                            allowfullscreen></iframe>
+                    </div>
+                    <div class="col-6">
+                        <iframe class="form-control" height="315" src="https://www.youtube.com/embed/yWirdnSDsV4"
+                            title="YouTube video player" frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                            allowfullscreen></iframe>
+                    </div>
+                </div>
+            </div>
+
+                <div class="col-3"></div>
+                <div class="mt-5"></div>
+            </div>
+
+            <!-- Footer section of the main page -->
+            <footer style="background-color:  white " class="SM">
+                <div class="row mt-4">
+                    <div class="mt-4"></div>
+                    <div class="col col-md-1"></div>
+                    <div class="col col-md-1"></div>
+                    <div class="col col-md-2">2022-2023</div>
+                    <div class="col col-md-2 columns">
+                        <!--Social Media Section-->
+                        <h5>Redes Sociales</h5>
+                        <i class="bi bi-instagram"></i>
+                        <i class="bi bi-facebook"></i>
+                        <i class="bi bi-twitter"></i>
+                    </div>
+                    <!--More Information-->
+                    <div class="col col-md-2 columns">
+                        <h5>Resource</h5>
+                        <p>Cool Stuff</p>
+                        <p>Random Feature</p>
+                    </div>
+                    <!--About Us Button to go-->
+                    <div class="col col-md-2 columns">
+                        <h5>About</h5>
+                        <a href="/LWP/AboutUs.html" class="btn btn-primary ">Saber Más</a>
+                    </div>
+                    <div class="col col-md-1"></div>
+                    <div class="col col-md-1"></div>
+                </div>
+                <!--Copyright Section-->
+                <div>
+                    <hr
+                        style="width: 65%; margin: 50px 0px 0px 19%; height: 1px ;border:none;color:black;background-color:black;">
+                    <p class="fst-italics" style="padding-top: 20px; text-align: center;">Copyright @2023 Todos los
+                        derechos Reservados a LWP</p>
+                </div>
+            </footer>
+            <script src="/LWP/Js/english2.js"></script>
+
+</body>
+
+</html>

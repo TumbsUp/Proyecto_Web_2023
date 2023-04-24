@@ -135,35 +135,38 @@ function secondVideo() {
             alert("Try again");
     
             return false;
-        /*
-    }
-
-    if (Domingo!=='sunday'){
-        document.getElementById('Domingo').focus();
-        alert("Try again");
-        return false;  */
-    
         
-    }alert("Excellent");
+    }alert("Excellent, good try!");
     return true;
 }
 
 
+document.getElementById("eliminarDatosBtn").addEventListener("click", function() {
+  document.getElementById("lunes").value = "";
+  document.getElementById("Martes").value = "";
+  document.getElementById("Miercoles").value = "";
+  document.getElementById("Jueves").value = "";
+  document.getElementById("Viernes").value = "";
+  document.getElementById("Sabado").value = "";
+  document.getElementById("Domingo").value = "";
+
+});
+
+document.getElementById("eliminarDatosSegundo").addEventListener("click", function() {
+    document.getElementById("this1").value = "";
+    document.getElementById("this2").value = "";
+    document.getElementById("this3").value = "";
+    document.getElementById("this4").value = "";
+    document.getElementById("this5").value = "";
+    document.getElementById("this6").value = "";
+    document.getElementById("this7").value = "";
+    document.getElementById("this8").value = "";
+    document.getElementById("this9").value = "";
+
+  
+  });
+  
 
 
-  
-  
- /*    if (contra == ""|| correo =="") {
-      alert("Por favor, complete los campos del formulario");
-      document.getElementById("correo").focus();
-      return false;
-    }
-    if( !(/^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,4})+$/.test(correo)) ) {
-      alert("Agrega el formato de correo");
-      document.getElementById("correo").focus();
-      return false;
-    }
-     */
-    
-  
+
   

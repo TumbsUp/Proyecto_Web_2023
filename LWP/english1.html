@@ -16,26 +16,27 @@
 </head>
 
 <body>
-    <header class="border-bottom p-3 bg-body-tertiary rounded">
-        <div class="container-fluid">
-            <div class="row">
-                <div class="col col-md-4 fs-3 text">
-                    <img class="logo" src="/LWP/Images/LWP_Logo.png" alt="LWP_Logo">
-                </div>
-                <div class="col col-md-8" style="text-align: right;">
-                    <a href="#Contactos" class="btn btn-light">Contactos</a>
-                    <a href="#SM" class="btn btn-light">Redes Sociales</a>
-                    <a href="#copyR" class="btn btn-light">Derechos de Autor</a>
-                    <a href="#Suge" class="btn btn-light">Sugerencias</a>
-                    <a href="#" class="btn btn-light">Multimedia</a>
-                    <a href="/LWP/login.html" class="btn " style="background-color: #3E4AB8; color:aliceblue;">Iniciar
-                        Sesión</a>
-                    <a href="/LWP/signUp.html" class="btn "
-                        style="background-color: #3E4AB8; color:aliceblue;">Registrarse</a>
-                </div>
+  <header class="border-bottom p-3 bg-body-tertiary rounded">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col col-md-4 fs-3 text">
+                <img class="logo" src="/LWP/Images/LWP_Logo.png" alt="LWP_Logo">
+            </div>
+            <div class="col col-md-8" style="text-align: right;">
+                <span class="p-5" >¡Bienvenido!</span>
+            <!--Dropdown for the Profile of the user-->
+            <div class="dropdown" style="display: inline-block;">
+            <button class="btn btn-secondary btn-sm dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="true">
+                <i class="bi bi-person-circle p-1"></i>UserName
+            </button>
+            <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Ver Perfil</a></li>
+                <li><a class="dropdown-item" href="#">Cambiar Foto de Perfil</a></li>
+                <li><a class="dropdown-item" href="#">Cerrar Sesión</a></li>
             </div>
         </div>
-    </header>
+    </div>
+</header>
     <script>"https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"</script>
     <section style="background-color: #ebf2f2"> <!-- All the modules existed-->
         <div class="row">
@@ -51,7 +52,7 @@
     <div class="row">
         <div class="col-3"></div>
         <div class="col-6 ">
-            <iframe class="form-control" height="315" src="https://www.youtube.com/embed/mXMofxtDPUQ"
+            <iframe style="border: 4px solid #A0A0A0;" class="form-control" height="315" src="https://www.youtube.com/embed/mXMofxtDPUQ"
                 title="YouTube video player" frameborder="0"
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                 allowfullscreen></iframe>
@@ -85,6 +86,9 @@
                         style="border-color: #A0A0A0; color: white; background-color: #3E4AB8;" type="button"
                         class=" rounded-5 form-control btn  mb-3 ">Send</button>
 
+                        <button id="eliminarDatosBtn" style="border-color: #A0A0A0; color: white; background-color: #A0A0A0" type="button"
+                        class=" rounded-5 form-control btn  mb-3 ">Try again</button>
+
             
         </div>
         </div>
@@ -97,8 +101,8 @@
     <div style="background-color: #ebf2f2;"class="row">
         <div class="col-3"></div>
         <div class="col-6">
-            
-      <iframe class="form-control" height="315" src="https://www.youtube.com/embed/gghDRJVxFxU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            <div class="mt-4"></div>
+      <iframe style="border: 4px solid #3E4AB8" class="form-control" height="315" src="https://www.youtube.com/embed/gghDRJVxFxU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
         </div>
         <div class="col-3"></div>
         <div class="row">
@@ -231,12 +235,16 @@
                               <option value="09">Estoy Genial</option>
                             </select>
                           </form>
-                          
-      
-    
+
                         <button onclick="return secondVideo()"
                             style="border-color: #A0A0A0; color: white; background-color: #3E4AB8;" type="button"
                             class=" rounded-5 form-control btn  mb-3 ">Send</button>
+                  
+                        <button id="eliminarDatosSegundo" style="border-color: #A0A0A0; color: white; background-color: #A0A0A0" type="button"
+                        class=" rounded-5 form-control btn  mb-3 ">Try again</button>
+
+            
+    
                     </div>
                         <div style="font-size: 20px; text-align: right;" class="col-6">
                         <label class="mb-4 mt-4"> Everday</label><br>
@@ -261,17 +269,17 @@
     </div>
     <div class="row">
         <div class="col 4"></div>
-        <div style="text-align: center; font-size: 30px;" class="col 4 mt-5 mb-3">See more intertaining videos and learn even more!</div>
+        <div style=" text-align: center; font-size: 30px;" class="col 4 mt-5 mb-3 rounded-5">See more intertaining videos and learn even more!</div>
         <div class="col 4"></div>
     </div>
     <div class="row">
         <div class="col-1"></div>
         <div class="col-4">
-            <iframe class="form-control" height="315" src="https://www.youtube.com/embed/c6BVOQfgMP8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            <iframe style="border: 2px solid #A0A0A0" class="form-control" height="315" src="https://www.youtube.com/embed/c6BVOQfgMP8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
         </div>
         <div class="col-2"></div>
         <div class="col-4">
-            <iframe class="form-control" height="315" src="https://www.youtube.com/embed/a1NIWCr0R-k" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            <iframe style="border: 2px solid #3E4AB8" class="form-control" height="315" src="https://www.youtube.com/embed/a1NIWCr0R-k" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
         </div>
         <div class="col-1"></div>
     </div>
