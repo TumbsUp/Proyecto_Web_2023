@@ -22,9 +22,9 @@ header{
     position: relative;
     overflow: hidden;
     clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
-  }
+}
 
-  .hexagon img {
+.hexagon img {
     position: absolute;
     top: 0;
     left: 0;
@@ -32,8 +32,8 @@ header{
     height: 100%;
     object-fit: cover;
     clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
-  }
-  .hexagon button {
+}
+.hexagon button {
     position: absolute;
     bottom: 20px;
     left: 50%;
@@ -43,13 +43,12 @@ header{
     background-color: #fff;
     color: #007bff;
     font-size: 18px;
-   
-  }
+}
 
     .contenedor figure{
-       position:relative;
+    position:relative;
         cursor: pointer;
-       /*  overflow: hidden;  /*esto*/
+    /*  overflow: hidden;  /*esto*/
         box-shadow: 0px 0px 0px rgba(0,0,0,0.50);
         clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
     }
@@ -68,7 +67,7 @@ header{
         transition: all 400ms ease-out;
         opacity: 0;
         visibility: hidden;
-       text-align: center;
+    text-align: center;
     }
     .contenedor figure:hover > .capa {
         opacity: 1;
@@ -86,7 +85,7 @@ header{
         font-weight: 400;
         margin-bottom: 120px;
         transition: all 400ms ease-out;
-         margin-top: 30px;
+        margin-top: 30px;
     }
     .contenedor figure .capa p{
         color: #fff;
@@ -128,5 +127,3 @@ header{
     footer{
         background-color: white;
     }
-
-  

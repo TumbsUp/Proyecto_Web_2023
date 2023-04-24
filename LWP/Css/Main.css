@@ -1,11 +1,14 @@
+/*Body Conf  style*/
 body{
     margin: 0;
     font-family: sans-serif;
 }
+/*Style for the logo*/
 .logo{
     display: flex;
     height: 30px;
 }
+/*Color for the p tag*/
 p{
     color: white;
 }
@@ -30,11 +33,13 @@ p{
     margin: 0;
     height: 500px;
 }
+/*Style for the section of Mult*/
 #examples{
     background: url(/LWP/Images/Kids_Playground.jpg)no-repeat center;
     height: 500px;
     text-align: center;
 }
+/**/
 .contGH{
     height: 500px;
 }
@@ -42,11 +47,11 @@ p{
 footer{
     background-color: white;
 }
-
+/*Color for the columns p*/
 div.columns>p{
     color:black;
 }
-
+/*Style for the color of the footer*/
 #copyR>p{
     padding-left: 35%;
     color: black;
@@ -79,9 +84,4 @@ div.columns>p{
 /*Right arrow alignment*/
 .carousel_siguiente{
     left: 1480px;
-<<<<<<< HEAD
 }
-=======
-}
-
->>>>>>> ef685aa5456a76e3ad8872d989ca332a2cc73ea3

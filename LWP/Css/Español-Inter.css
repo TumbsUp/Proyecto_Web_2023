@@ -5,15 +5,19 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    font-family: 'Alkatra', cursive;
     font-size: 20px;
 }
 
 /*Style for header*/
 header{
-    background-color: #3E4AB8;
     margin: 0;
 }
+
+.logo{
+    display: flex;
+    height: 30px;
+}
+
 /*Style for the logo*/
 .log_lwp{
     width: 140px;
@@ -22,10 +26,11 @@ header{
 }
 
 .barra {
-    font-family: 'Lato', sans-serif;
+    margin-top: -10px;
+        font-family: 'Lato', sans-serif;
     /**Alto y ancho de donde se va a activar cuando pase el mouse**/
     width:10%;
-    height:9%;
+    height:2px;
     /*Para que este siempre en la misma parte de la pantalla aunque se haga scroll*/
     position:fixed;
     /*Tiempo en el que va a transitar la animacion*/
