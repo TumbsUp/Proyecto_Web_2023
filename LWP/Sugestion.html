@@ -11,98 +11,105 @@
 <body bgcolor="e2e2e2">
         <div class="mainBlock">
             <!--Header for the Logo-->
-            <div class="header">
-            <img class="pequeña" src ="/LWP/Images/LWP_Logo.png" width="120" height="30"/>
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-12 col-md-12">
+                        <div class="header">
+                            <img class="pequeña" src ="/LWP/Images/LWP_Logo.png" width="120" height="30"/>
+                            </div>
+                    </div>
+                </div>
             </div>
             <!--Div for the navbar-->
-            <div class = "headBlock">
-                <ul class="nav"> 
-                    <li><a href="/LWP/main.html">Home</a></li>
-                    <li><a href="#">Contactos</a></li>
-                    <li><a href="#">Derecho de Autor</a></li>
-                    <li><a href="#">Multimedia</a></li>
-                </ul>
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class = "headBlock">
+                            <ul class="nav"> 
+                                <li><a href="/LWP/main.html">Home</a></li>
+                                <li><a href="#">Contactos</a></li>
+                                <li><a href="#">Derecho de Autor</a></li>
+                                <li><a href="#">Multimedia</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
-        <!--Suggestion Block with all the info-->
-        <div class = "sugestionBlock"></br>
-        <strong><p>En la LWP nos interesa conocer tu opinión.</p></strong></br>
-
-        <p> Mediante esta página podrá trasmitir a nuestros servicios diferentes tipos de sugerencias las cuales serán tomadas
-            en cuenta para el mejoramiento continuo y sostenible de la página web. Esta información nos ayudara a establecer nuevas oportunidades de mejora y ayuda a emprender acciones para 
-            la optimización de nuestras actividades y datos. </br></br>Toda la información brindada aquí será
-            confidencial, pero es necesario la identificación de las personas que presenta dicha sugerencia. </p>
-            </br>
-    
-        <hr>
-        
-    </br>
-        <div class="form">
-            <!--Creación de formularios-->
-        <!--The get method is way to insecure-->
-    <form action="" method="get"> <!--Manda infromacion por el ulr. Mientras que en el post no se puede visualizar-->
-        <div>
-            <div class="input">
-                <label for="Color">Nombre</label>
-                <input type="text"name="id" id="id" placeholder="Nombre completo" maxlength="30">
-            </div>
-            </br> </br>
-     
-
-            <div class="input">
-                <label for="Color">Gmail</label>
-                <input type="email" name="Gmail" id="Gmail" placeholder="Ingresa tu correo electronico" maxlength="30">
-            </div>
-            </br> </br>
-    
-            <div class="input">
-                <label for="Color">Fecha</label>
-                <input type="date" name="Date" id="Date">
-            </div>
-        </br> </br>
-        
-            <div class="input">
-                <label for="id">Numero</label>
-                <input type="text"name="id" id="id" placeholder="Numero télefonico" maxlength="30"></div>
-            </br> </br>
-            <!--Options Selection-->
-            <div class="input">
-                <label for="file">Tipo de sugerencia</label>
-                <select name="Brand" id="Brand">
-                    <option value="1">Actividades de escrituras</option>
-                    <option value="2">Temario</option>
-                    <option value="3">Interacción</option>
-                    <option value="4">Material</option>
-                    <option value="6">Juegos</option>
-                    <option value="7">Otra</option>
-                </select>
-                
-            </div>
-        </br> </br>
-
-            <div class="input">
-                <label for="Color">Descripción</label>
-                <textarea name="Description"id=Description cols="71" rows="20"></textarea>     
-            </div>
-
+        <div class="container">
+            <div class="row">
+                <div class="col col-md-4"></div>
+                <div class="col col-md-4">
+                    <!--Suggestion Block with all the info-->
+                    <div class = "sugestionBlock"></br>
+                        <strong><p>En la LWP nos interesa conocer tu opinión.</p></strong></br>
             
-        
-    
-        </div>
-
-
-
-        </form>
-        <section>
+                    <p> Mediante esta página podrá trasmitir a nuestros servicios diferentes tipos de sugerencias las cuales serán tomadas
+                        en cuenta para el mejoramiento continuo y sostenible de la página web. Esta información nos ayudara a establecer nuevas oportunidades de mejora y ayuda a emprender acciones para 
+                        la optimización de nuestras actividades y datos. </br></br>Toda la información brindada aquí será
+                        confidencial, pero es necesario la identificación de las personas que presenta dicha sugerencia. </p>
+                        </br>
                 
-            <a href="/LWP/verification.html">
-                <button class="btn success">Enviar</button>
-              </a> 
-          </section>
-        
-        </div>
-        
-
+                    <hr>
+                    
+                    </br>
+                    <div class="form">
+                        <!--Creación de formularios-->
+                        <!--The get method is way to insecure-->
+                        <form action="" method="get"> <!--Manda infromacion por el ulr. Mientras que en el post no se puede visualizar-->
+                            <div>
+                                <div class="input">
+                                    <label for="Color">Nombre</label>
+                                    <input type="text"name="id" id="id" placeholder="Nombre completo" maxlength="30">
+                                </div>
+                                </br> </br>
+                        
+                    
+                                <div class="input">
+                                    <label for="Color">Gmail</label>
+                                    <input type="email" name="Gmail" id="Gmail" placeholder="Ingresa tu correo electronico" maxlength="30">
+                                </div>
+                                </br> </br>
+                        
+                                <div class="input">
+                                    <label for="Color">Fecha</label>
+                                    <input type="date" name="Date" id="Date">
+                                </div>
+                            </div>
+                            </br> </br>
+                    
+                            <div class="input">
+                            <label for="id">Numero</label>
+                            <input type="text"name="id" id="id" placeholder="Numero télefonico" maxlength="30">
+                            </div>
+                            </br> </br>
+                            <!--Options Selection-->
+                            <div class="input">
+                                <label for="file">Tipo de sugerencia</label>
+                                <select name="Brand" id="Brand">
+                                    <option value="1">Actividades de escrituras</option>
+                                    <option value="2">Temario</option>
+                                    <option value="3">Interacción</option>
+                                    <option value="4">Material</option>
+                                    <option value="6">Juegos</option>
+                                    <option value="7">Otra</option>
+                                </select>
+                            </div>
+                            </br> </br>
+                            <div class="input">
+                                <label for="Color">Descripción</label>
+                                <textarea name="Description"id=Description cols="71" rows="20"></textarea>     
+                            </div>
+                        </form>
+                        <section>  
+                            <a href="/LWP/verification.html">
+                                <button class="btn success">Enviar</button>
+                            </a> 
+                        </section>
+                    </div>
+                    
+                </div>
+            </div>
         </div>
         <!--Some Text about our page-->
         <div class="footer">
@@ -114,12 +121,6 @@
                 <a href="https://www.twitter.com"><i class="fab fa-twitter fa-3x"></i></a>
                 <a href="https://www.instagram.com"><i class="fab fa-instagram fa-3x"></i></a>
             </div>
-
         </div>
-    </div>
-    <footer>
-    </footer>
-
-
 </body>
 </html>
