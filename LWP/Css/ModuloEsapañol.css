@@ -1,3 +1,18 @@
+.logo{
+    display: flex;
+    height: 30px;
+}
+
+/*Style for header*/
+header{
+    background-color: #3E4AB8;
+    margin: 0;
+}
+/*Style for the logo*/
+.log_lwp{
+    width: 60px;
+    height: 60px;
+}
 .card{
     overflow: hidden;
     background: #fff;
