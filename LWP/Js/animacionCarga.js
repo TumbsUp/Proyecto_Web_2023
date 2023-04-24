@@ -50,8 +50,12 @@ function validarSignUp() {
   var dia = document.getElementById("dia").value;
   var ahno = document.getElementById("ahno").value;
 
+  var temas = document.getElementById("temas").value;
+  var texto = document.getElementById("texto").value;
 
-  if (username == "" || Gmail =="" || mes =="" || dia =="" || ahno =="") {
+
+
+  if (username == "" || Gmail =="" || mes =="" || dia =="" || ahno =="" || temas =="" || texto == "") {
     alert("Por favor, complete los campos del formulario");
     return false;
   }
@@ -63,3 +67,4 @@ function validarSignUp() {
 
   return true;
 }
+
