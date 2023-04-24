@@ -15,16 +15,16 @@ p{
 /* Sugestion Section */
 .home{
     margin: auto;
-    background: url(/LWP/Images/Books.jpg) no-repeat center;
+    background: url(/LWP/Images/Kids_Playground.jpg)no-repeat center;
     background-size: cover;
-    height: 400px;
+    height: 500px;
     align-items: center;
     opacity: 0.8;
     text-align: center;
 }
 /*Contac Section*/
 #Contactos{
-    background: url(/LWP/Images/Office.jpg) no-repeat center;
+    background: url(/LWP/Images/animal3.jpg) no-repeat center;
     height: 500px;
     text-align: center;
 }
@@ -35,7 +35,8 @@ p{
 }
 /*Style for the section of Mult*/
 #examples{
-    background: url(/LWP/Images/Kids_Playground.jpg)no-repeat center;
+    background: url(/LWP/Images/animal1.jpg) no-repeat center;
+
     height: 500px;
     text-align: center;
 }
