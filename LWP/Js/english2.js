@@ -245,3 +245,57 @@ function broccoli() {
     document.getElementById("broccoli").value = "";
     return true;
 } 
+
+function first() {
+  var first = document.getElementById("first").value.trim().toLowerCase();
+
+    if (first!=="he stood in a field and looked like a man"){
+        document.getElementById('first').focus();
+        alert("Try again")
+        return false;
+    }alert("Good job")
+   document.getElementById("first").value = "";
+     return true;
+} 
+
+function second() {
+
+    var second = document.getElementById("second").value.trim().toLowerCase();
+
+  
+      if (second!=="the scarescrow was made of straw"){
+          document.getElementById('second').focus();
+          alert("Try again")
+          return false;
+      }alert("Good job")
+       document.getElementById("second").value = "";
+      return true;
+  } 
+
+  function third() {
+
+    var third = document.getElementById("third").value.trim().toLowerCase();
+
+  
+      if (third!=="the second crow flew to the scarecrow"){
+          document.getElementById('third').focus();
+          alert("Try again")
+          return false;
+      }alert("Good job")
+       document.getElementById("third").value = "";
+      return true;
+  } 
+
+  function fourth() {
+
+    var fourth = document.getElementById("fourth").value.trim().toLowerCase();
+
+  
+      if (fourth!=="he has fresh straw in all his pockets"){
+          document.getElementById('fourth').focus();
+          alert("Try again")
+          return false;
+      }alert("Good job")
+       document.getElementById("fourth").value = "";
+      return true;
+  } 
