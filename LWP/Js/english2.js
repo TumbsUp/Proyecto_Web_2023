@@ -249,7 +249,7 @@ function broccoli() {
 function first() {
     var first = document.getElementById("first").value.trim().toLowerCase();
 
-    if (first !== "he stood in a field and looked like a man") {
+    if (first !== "the scarescrow was made of straw") {
         document.getElementById('first').focus();
         alert("Try again")
         return false;
@@ -263,7 +263,7 @@ function second() {
     var second = document.getElementById("second").value.trim().toLowerCase();
 
 
-    if (second !== "the scarescrow was made of straw") {
+    if (second !== "he stood in a field and looked like a man") {
         document.getElementById('second').focus();
         alert("Try again")
         return false;
@@ -271,6 +271,8 @@ function second() {
     document.getElementById("second").value = "";
     return true;
 }
+
+
 
 function third() {
 
